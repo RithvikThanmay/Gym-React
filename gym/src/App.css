@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Baloo Bhai 2", sans-serif;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(19, 6, 6);;
+    color: white;
+    padding: 5px;
+}
+
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+
+.logo h1{
+    text-align: center;
+    color: orange;
+}
+
+.nav-item ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-item ul li{
+    font-size: 30px;
+    padding: 10px;
+    margin: 20px;
+    list-style: none;
+    color: white;
+}
+
+.nav-item ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-item ul li a:hover{
+    color: orange;
+}
+
+.home-main{
+    background: url("https://www.tonal.com/wp-content/uploads/2022/10/home-gym-equipment-v2.jpg?fit=2880%2C1300&w=1300");
+    height:90vh;
+    z-index: 10;
+}
+
+.home-content{
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 100px;
+    top: 90px;
+    z-index: 100;
+    font-size: 20px;
+}
+
+.timing{
+    margin-top: 50px;
+}
+
+.home-content h1{
+    margin: 5px;
+}
+
+.home-content h2{
+    margin: 5px;
+    color: orangered;
+}
+
+.home-content h4{
+    margin: 5px;
+}
+
+.about-main{
+    height: 90vh;
+    background-image: url("https://img.freepik.com/free-photo/portrait-shirtless-muscular-male-doing-biceps-workouts-grey-background_613910-1480.jpg");
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+.about-content{
+    width: 600px;
+    position: absolute;
+    right: 80px;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+    color: white;
+}
+
+.about-content h1{
+    margin: 20px;
+    color: orange;
+}
+
+.programs-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: black;
+    padding-top: 30px;
+}
+
+.programs-content{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+    color: white;
+}
+
+.programs-content h1, .programs-content h3{
+    color: orange;
+    margin: 10px;
+}
+
+.program{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.program img{
+    width: 200px;
+    height: 200px;
+}
+
+.program-image{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.ame-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: black;
+    /* margin: 0px 20px; */
+    color: white ;
+}
+
+.ame-content h1{
+    color: orange;
+}
+
+.ame-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px;
+    color: white;
+}
+
+.ame-list ul li{
+    margin: 10px;
+    font-size: 18px;
+    color: white;
+}
+
+.ame-img img{
+    width: 600px;
+    height: 700px;
+}
+
+.ame-content h1, .ame-content p{
+    text-align: center;
+    position: relative;
+    right: 30px;
+    margin: 10px;
+}
+
+/* contact */
+
+.contact-main{
+    margin: 10px;
+    text-align: center;
+}
+
+.contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .c-right{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    margin: 20px;
+    padding: 10px;
+    width: 500px;
+  }
+  
+  .c-right h1{
+    margin: 20px;
+  }
+  
+  .c-right input{
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .c-right textarea{
+    margin: 10px;
+    padding: 10px;
+    /* height: 100px; */
+  }
+  
+  .c-left{
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    margin-left: 100px;
+    padding: 10px;
+    width: 650px;
+    font-size: 20px;
+  }
+  
+  .c-left h1{
+    margin: 15px;
+  }
+  
+  .c-left h3{
+    margin: 15px;
+    margin-left: 30px;
+  }
+
+  .c-left p{
+    margin: 15px;
+    margin-left: 30px;
+  }
+  
+
+  .c-item i{
+    position: relative;
+    top: 50px;
+    font-size: 25px;
+  }
+
+  .footer-item{
+    text-align: center;
+  }
+
+  .icons{
+    text-align: center;
+    /* margin-left: 80px;
+    margin-top: 30px; */
+    font-size: 25px;
+  }
+  
+  .icons i{
+    margin: 10px;
+    cursor: pointer;
+  }
+
+  .footer{
+    background-color: rgb(19, 6, 6);
+    color: orange;
+    position: absolute;
+    width: 100%;
+    padding: 10px;
+  }
+
+
